@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    header img {
+
+        margin-right: 5rem;
+    }
+
+    .intro {
+        width: 500px;
+        word-wrap: break-word;
+    }
+
+    #about {
+        display: flex;
+    }
+
+    .experience {
+        width: 500px;
+        margin-right: 5rem;
+    }
+}

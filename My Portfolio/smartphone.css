@@ -1,0 +1,140 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5%;
+    margin-top: 2rem;
+    
+}
+
+header img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 0;
+    object-fit: cover;
+}
+
+.intro {
+    margin-top: 1.3rem;
+    margin-left: -0.7rem;
+    padding: 30px 15px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.4),#009088);
+    border-radius: 30px 0;
+    box-shadow: 3px 3px 10px  linear-gradient(rgba(253, 253, 253, 0.4),#009088);;
+}
+h1{
+    font-size: 25px;
+    margin-left: -1.3rem;
+    text-align: center;
+    
+}
+p{
+    font-size: 16px;
+    margin: 15px 0;
+    /* margin-left: -0.7rem; */
+    font-weight: 500;
+    
+}
+
+.intro .i{
+    font-size: 28px;
+}
+.intro a{
+    text-decoration: none;
+    color: #333;
+    margin: 1rem 0;
+    margin-left: 2.7rem;
+}
+h2 {
+    padding-bottom: .5rem;
+}
+h3{
+    text-align: center;
+}
+
+/* ABOUT */
+#about {
+    padding: 1rem 5%;
+    background:linear-gradient(rgba(0,0,0,0.7),#3c9b96);
+    color: white;
+}
+#about h1{
+    font-size: 56px;
+}
+#about p{
+    font-size: 17px;
+}
+
+#about ul {
+    /* display: fl ex; */
+    margin-top: 20px;
+    padding-left: 0.5rem;
+    list-style: none;
+}
+
+
+#about li {
+    padding-inline-start: 1.3ch;
+    margin-bottom: 0.8rem;
+}
+
+.experience img {
+    width: 80px;
+    margin-right: 1rem;
+}
+
+#projects {
+        padding: 1rem 5%;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+.col{
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ 
+}
+
+.card-body{
+    margin: 2rem ;
+    padding: 25px;
+}
+#projects h2 {
+    margin:0 20%;
+}
+
+footer p {
+    padding: 30px 30px;
+    text-align: center;
+    background: linear-gradient(rgba(235, 228, 228, 0.8),#009088);
+}
+/* PROJECT */
+.card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+
+.btn{
+    display: inline-block;
+    text-emphasis: bold;
+    padding: 0.6rem 1.3rem;
+    margin: 0.8rem;
+    font-size: 1rem;
+    background:  linear-gradient(rgba(2, 2, 2, 0.8),#009088);
+    color:#fff;
+    /* text-shadow:4px 4px #777; */
+    border-radius: 25px 0 25px 0;
+    text-decoration: none;
+    box-shadow: 2px 2px 20px #009088;
+    transition: all 0.4s ease-in;
+}
+
